@@ -25,5 +25,6 @@ My global Claude Code config (`~/.claude`), minus machine-local state
   - `chrome-devtools` — `npm install -g chrome-devtools-mcp`
   - `filesystem` — `npm install -g @modelcontextprotocol/server-filesystem`
   - `sequential-thinking` — `npm install -g @modelcontextprotocol/server-sequential-thinking`
+  - `serena` — `uv tool install -p 3.13 serena-agent`, then `serena init`
 
 To use: symlink or copy into `~/.claude/`.

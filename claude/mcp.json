@@ -23,6 +23,12 @@
       "command": "$HOME/.local/bin/mcp-server-sequential-thinking",
       "args": [],
       "env": {}
+    },
+    "serena": {
+      "type": "stdio",
+      "command": "$HOME/.local/bin/serena",
+      "args": ["start-mcp-server"],
+      "env": {}
     }
   }
 }
