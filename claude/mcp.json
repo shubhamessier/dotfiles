@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "dune": {
+      "type": "http",
+      "url": "https://api.dune.com/mcp/v1"
+    },
+    "chrome-devtools": {
+      "type": "stdio",
+      "command": "$HOME/.local/bin/chrome-devtools-mcp",
+      "args": [],
+      "env": {}
+    },
+    "filesystem": {
+      "type": "stdio",
+      "command": "$HOME/.local/bin/mcp-server-filesystem",
+      "args": [
+        "$HOME"
+      ],
+      "env": {}
+    },
+    "sequential-thinking": {
+      "type": "stdio",
+      "command": "$HOME/.local/bin/mcp-server-sequential-thinking",
+      "args": [],
+      "env": {}
+    }
+  }
+}
